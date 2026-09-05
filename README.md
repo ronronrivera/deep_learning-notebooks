@@ -1,10 +1,10 @@
-# PyTorch Learning Journey 🧠🔥
+# PyTorch Learning Journey 
 
 A hands-on repository for learning **PyTorch** from the fundamentals to computer vision and deep learning.
 
 The goal of this repository is not just to memorize PyTorch syntax, but to understand **how neural networks work and how to build, train, evaluate, and improve them in practice**.
 
-## 🎯 Goals
+##  Goals
 
 - Learn PyTorch fundamentals
 - Understand tensors and automatic differentiation
@@ -17,7 +17,7 @@ The goal of this repository is not just to memorize PyTorch syntax, but to under
 - Eventually apply PyTorch to medical imaging
 - Prepare for Kaggle competitions and future thesis work
 
-## 🛠️ Tools
+##  Tools
 
 - Python
 - PyTorch
@@ -28,7 +28,7 @@ The goal of this repository is not just to memorize PyTorch syntax, but to under
 - Git & GitHub
 
 
-## 💻 Development Environment
+##  Development Environment
 
 Most experiments can be run locally for learning and debugging.
 
@@ -56,7 +56,7 @@ X = X.to(device)
 y = y.to(device)
 ```
 
-## 🧠 Learning Philosophy
+##  Learning Philosophy
 
 This repository focuses on **understanding rather than copying code**.
 
@@ -73,7 +73,7 @@ Instead of simply following tutorials, experiments will be used to test and rein
 
 
 
-## 🚀 Long-Term Goal
+##  Long-Term Goal
 
 The long-term goal is to progress from basic PyTorch exercises to real-world deep learning projects, particularly **computer vision and medical imaging**.
 
