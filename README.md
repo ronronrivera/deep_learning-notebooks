@@ -1,105 +1,124 @@
-PyTorch Learning Journey 🧠🔥
+# PyTorch Learning Journey 🧠🔥
 
-A hands-on repository for learning PyTorch from the fundamentals to computer vision and deep learning.
+A hands-on repository for learning **PyTorch** from the fundamentals to computer vision and deep learning.
 
-The goal of this repository is not just to memorize PyTorch syntax, but to understand how neural networks work and how to build, train, evaluate, and improve them in practice.
+The goal of this repository is not just to memorize PyTorch syntax, but to understand **how neural networks work and how to build, train, evaluate, and improve them in practice**.
 
-🎯 Goals
-Learn PyTorch fundamentals
-Understand tensors and automatic differentiation
-Build neural networks from scratch
-Understand training and validation
-Learn how backpropagation works in practice
-Build and train CNNs
-Learn computer vision with PyTorch
-Experiment with different architectures and hyperparameters
-Eventually apply PyTorch to medical imaging
-Prepare for Kaggle competitions and future thesis work
-🛠️ Tools
-Python
-PyTorch
-NumPy
-Matplotlib
-Jupyter Notebook
-Kaggle Notebooks
-Git & GitHub
-📚 Learning Roadmap
-1. PyTorch Fundamentals
-Tensors
-Tensor shapes and dimensions
-Indexing and slicing
-Tensor operations
-CPU vs GPU
-Moving tensors between devices
-PyTorch's dtype
-Broadcasting
-2. Automatic Differentiation
-requires_grad
-Gradients
-Computational graphs
-backward()
-Gradient accumulation
-torch.no_grad()
-3. Building Neural Networks
-nn.Module
-nn.Linear
-Activation functions
-ReLU
-Sigmoid
-Softmax
-Forward propagation
-Loss functions
-Optimizers
-4. Training Neural Networks
-Training loops
-Forward pass
-Loss calculation
-Backpropagation
-Gradient descent
-Optimizers
-Learning rate
-Epochs
-Batches
-Training vs validation
-Overfitting and underfitting
-5. Datasets and DataLoaders
-Dataset
-DataLoader
-Batching
-Shuffling
-Train/validation/test splits
-Data preprocessing
-Data augmentation
-6. Computer Vision
-Image tensors
-Convolutional layers
-Pooling
-CNN architectures
-Image classification
-Data augmentation
-Transfer learning
-Model evaluation
-7. Larger Projects
+## 🎯 Goals
+
+- Learn PyTorch fundamentals
+- Understand tensors and automatic differentiation
+- Build neural networks from scratch
+- Understand training and validation
+- Learn how backpropagation works in practice
+- Build and train CNNs
+- Learn computer vision with PyTorch
+- Experiment with different architectures and hyperparameters
+- Eventually apply PyTorch to medical imaging
+- Prepare for Kaggle competitions and future thesis work
+
+## 🛠️ Tools
+
+- Python
+- PyTorch
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+- Kaggle Notebooks
+- Git & GitHub
+
+## 📚 Learning Roadmap
+
+### 1. PyTorch Fundamentals
+
+- Tensors
+- Tensor shapes and dimensions
+- Indexing and slicing
+- Tensor operations
+- CPU vs GPU
+- Moving tensors between devices
+- PyTorch's `dtype`
+- Broadcasting
+
+### 2. Automatic Differentiation
+
+- `requires_grad`
+- Gradients
+- Computational graphs
+- `backward()`
+- Gradient accumulation
+- `torch.no_grad()`
+
+### 3. Building Neural Networks
+
+- `nn.Module`
+- `nn.Linear`
+- Activation functions
+- ReLU
+- Sigmoid
+- Softmax
+- Forward propagation
+- Loss functions
+- Optimizers
+
+### 4. Training Neural Networks
+
+- Training loops
+- Forward pass
+- Loss calculation
+- Backpropagation
+- Gradient descent
+- Optimizers
+- Learning rate
+- Epochs
+- Batches
+- Training vs validation
+- Overfitting and underfitting
+
+### 5. Datasets and DataLoaders
+
+- `Dataset`
+- `DataLoader`
+- Batching
+- Shuffling
+- Train/validation/test splits
+- Data preprocessing
+- Data augmentation
+
+### 6. Computer Vision
+
+- Image tensors
+- Convolutional layers
+- Pooling
+- CNN architectures
+- Image classification
+- Data augmentation
+- Transfer learning
+- Model evaluation
+
+### 7. Larger Projects
 
 Eventually, this repository will contain experiments and projects involving:
 
-MNIST
-Fashion-MNIST
-CIFAR-10
-Custom image datasets
-Transfer learning
-Medical imaging
-Kaggle competitions
-💻 Development Environment
+- MNIST
+- Fashion-MNIST
+- CIFAR-10
+- Custom image datasets
+- Transfer learning
+- Medical imaging
+- Kaggle competitions
+
+## 💻 Development Environment
 
 Most experiments can be run locally for learning and debugging.
 
-For larger models and datasets, Kaggle Notebooks can be used to take advantage of GPU acceleration.
+For larger models and datasets, **Kaggle Notebooks** can be used to take advantage of GPU acceleration.
 
 The goal is to keep the code portable between local CPU execution and GPU environments.
 
 Example:
 
+```python
 import torch
 
 device = torch.device(
@@ -107,34 +126,39 @@ device = torch.device(
 )
 
 print(device)
+```
 
 Models and tensors can then be moved to the appropriate device:
 
+```python
 model = model.to(device)
 X = X.to(device)
 y = y.to(device)
-🧠 Learning Philosophy
+```
 
-This repository focuses on understanding rather than copying code.
+## 🧠 Learning Philosophy
+
+This repository focuses on **understanding rather than copying code**.
 
 For every major concept, I want to understand:
 
-What does it do?
-Why do we need it?
-What is happening mathematically?
-How does PyTorch implement it?
-What happens if I change it?
-How does it affect model performance?
+1. What does it do?
+2. Why do we need it?
+3. What is happening mathematically?
+4. How does PyTorch implement it?
+5. What happens if I change it?
+6. How does it affect model performance?
 
 Instead of simply following tutorials, experiments will be used to test and reinforce the concepts.
 
 
 
+## 🚀 Long-Term Goal
 
-🚀 Long-Term Goal
+The long-term goal is to progress from basic PyTorch exercises to real-world deep learning projects, particularly **computer vision and medical imaging**.
 
-The long-term goal is to progress from basic PyTorch exercises to real-world deep learning projects, particularly computer vision and medical imaging.
+Eventually, the knowledge gained here will be applied to larger projects and Kaggle competitions such as the **RSNA Knee Abnormality Detection** competition.
 
-Eventually, the knowledge gained here will be applied to larger projects and Kaggle competitions such as the RSNA Knee Abnormality Detection competition.
+---
 
-Learning PyTorch by building, experimenting, breaking things, and figuring out why they broke.
+> Learning PyTorch by building, experimenting, breaking things, and figuring out why they broke.
