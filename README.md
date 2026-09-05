@@ -27,92 +27,12 @@ The goal of this repository is not just to memorize PyTorch syntax, but to under
 - Kaggle Notebooks
 - Git & GitHub
 
-## 📚 Learning Roadmap
-
-### 1. PyTorch Fundamentals
-
-- Tensors
-- Tensor shapes and dimensions
-- Indexing and slicing
-- Tensor operations
-- CPU vs GPU
-- Moving tensors between devices
-- PyTorch's `dtype`
-- Broadcasting
-
-### 2. Automatic Differentiation
-
-- `requires_grad`
-- Gradients
-- Computational graphs
-- `backward()`
-- Gradient accumulation
-- `torch.no_grad()`
-
-### 3. Building Neural Networks
-
-- `nn.Module`
-- `nn.Linear`
-- Activation functions
-- ReLU
-- Sigmoid
-- Softmax
-- Forward propagation
-- Loss functions
-- Optimizers
-
-### 4. Training Neural Networks
-
-- Training loops
-- Forward pass
-- Loss calculation
-- Backpropagation
-- Gradient descent
-- Optimizers
-- Learning rate
-- Epochs
-- Batches
-- Training vs validation
-- Overfitting and underfitting
-
-### 5. Datasets and DataLoaders
-
-- `Dataset`
-- `DataLoader`
-- Batching
-- Shuffling
-- Train/validation/test splits
-- Data preprocessing
-- Data augmentation
-
-### 6. Computer Vision
-
-- Image tensors
-- Convolutional layers
-- Pooling
-- CNN architectures
-- Image classification
-- Data augmentation
-- Transfer learning
-- Model evaluation
-
-### 7. Larger Projects
-
-Eventually, this repository will contain experiments and projects involving:
-
-- MNIST
-- Fashion-MNIST
-- CIFAR-10
-- Custom image datasets
-- Transfer learning
-- Medical imaging
-- Kaggle competitions
 
 ## 💻 Development Environment
 
 Most experiments can be run locally for learning and debugging.
 
-For larger models and datasets, **Kaggle Notebooks** can be used to take advantage of GPU acceleration.
+For larger models and datasets, **Kaggle Notebooks** or **Google Colab** can be used to take advantage of GPU acceleration.
 
 The goal is to keep the code portable between local CPU execution and GPU environments.
 
